@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    padding: 10px 5vw;
+    background-color: antiquewhite;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.menu{
+    display: flex;
+    gap: 10px;
+    
+}
+.logo{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.log-btn{
+    border: none;
+    background: none;
+}
+.sign-btn{
+    border: none;
+    border-radius: 8px;
+    background-color: orangered;
+    padding: 10px 20px;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    justify-items: center;
+    padding: 20px 10vw;
+}
+.hero-txt > h1{
+    font-size: 64px;
+}

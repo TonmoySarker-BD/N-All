@@ -1,0 +1,36 @@
+*{
+    padding: 0 2vw;
+    margin: 0;
+}
+
+.primary-heading{
+    color: aqua;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 100px;
+}
+/* 
+h2{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    font-size: 75px;
+} */
+
+.primary-dis{
+    font-size: 50px;
+    font-weight: 400;
+    font-family: "Tektur", sans-serif;
+    padding: 20px;
+    
+}
+
+section{
+    margin: 50px 10px;
+    font-family:"Galada", cursive;
+}
+
+section >h2{
+    font-weight: bolder;
+    font-size: xx-large;
+}

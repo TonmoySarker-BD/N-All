@@ -1,0 +1,120 @@
+!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .form-container {
+      background: #fff;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 500px;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+    input, select {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+    .row {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+    }
+    .row input, .row select {
+      flex: 1;
+    }
+    .gender {
+      display: flex;
+      gap: 15px;
+      margin-top: 10px;
+    }
+    .submit-button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 15px;
+      width: 100%;
+      border-radius: 5px;
+      font-size: 16px;
+      margin-top: 30px;
+      cursor: pointer;
+    }
+    .submit-button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+<div class="form-container">
+  <h2>Registration Form</h2>
+  <form>
+    <label>Full Name</label>
+    <input type="text" placeholder="Enter full name">
+
+    <label>Email Address</label>
+    <input type="email" placeholder="Enter email address">
+
+    <div class="row">
+      <div>
+        <label>Phone Number</label>
+        <input type="tel" placeholder="Enter phone number">
+      </div>
+      <div>
+        <label>Birth Date</label>
+        <input type="date">
+      </div>
+    </div>
+
+    <label>Gender</label>
+    <div class="gender">
+      <label><input type="radio" name="gender" checked> male</label>
+      <label><input type="radio" name="gender"> Female</label>
+      <label><input type="radio" name="gender"> prefer not to say</label>
+    </div>
+
+    <label>Address</label>
+    <input type="text" placeholder="Enter street address">
+    <input type="text" placeholder="Enter street address line 2">
+
+    <div class="row">
+      <select>
+        <option>Country</option>
+      </select>
+      <input type="text" placeholder="Enter your city">
+    </div>
+
+    <div class="row">
+      <input type="text" placeholder="Enter your region">
+      <input type="text" placeholder="Enter postal code">
+    </div>
+
+    <button type="submit" class="submit-button">Submit</button>
+  </form>
+</div>
+
+</body>
+</html>

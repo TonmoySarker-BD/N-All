@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: bisque;
+    border-bottom: 2px solid brown;
+    padding: 0px 50px;
+}
+.menu{
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+main{
+    margin: 20px 5vw;
+}
+
+.section-title{
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.reviews-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.avatar{
+    border: none;
+    border-radius: 50%;
+}
+
+.card{
+    padding: 20px;
+    border-radius: 5px 35px 5px 35px;
+    transition: 0.5s;
+    box-shadow: 2px 5px 10px 5px rgba(0,0,0,0.6);
+}
+
+.card:hover {
+    padding: 30px;
+  }
+
+.bg1{
+    background: linear-gradient(225deg, #ffc480, #dcc474, #b8c26f, #93be70, #6fb673, #4bac78, #299e7b, #078f7d);
+}
+.bg2{
+    background: linear-gradient(15deg, #142850, #14365f, #13476f, #125d80, #107792, #0d96a5, #09b8b4, #04ccb1);
+}
+.bg3{
+    background: linear-gradient(165deg, #ffc7c7, #e3aabb, #c590ae, #a6779f, #86608e, #654b7b, #433768, #1a2656);
+}
+
+
+.card-1{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-items: center;
+    
+}
+
+.star-active{
+    color: orangered;
+}
+
+.star{
+    color: white;
+}
+
+.review-dis{
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+.review-img{
+    border: none;
+    border-radius: 8px;
+}

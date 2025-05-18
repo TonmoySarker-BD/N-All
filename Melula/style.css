@@ -1,0 +1,68 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+a{
+
+}
+
+h1{
+	font-size:96px;
+}
+
+nav{
+	display: flex;
+	justify-content: space-between;
+	margin: 0 5vw;
+}
+
+button{
+	background-color: aqua;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 20px;
+	
+}
+
+#nav{
+	display: flex;
+	gap: 32px;
+}
+
+#banner{
+	color: white;
+	padding: 24px 0px;
+	background: url("./bg.jpg");
+	background-position: center
+	height: 100vh;
+	font-size: 32px;
+	background-repeat: no-repeat;
+	
+}
+
+#top{
+	font-size: 48px;
+	background-color: tomato;
+	text-align: center;
+	padding: 10px auto;
+}
+
+#hero{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 24px;
+	align-items: center;
+	padding: 40vh 0;
+}
+
+iframe{
+	margin: 0 5vw;
+}
+
+footer {
+  text-align: center;
+  padding: 5px;
+  
+}
