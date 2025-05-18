@@ -1,0 +1,28 @@
+
+*{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+nav{
+    background: url(./nodes.gif);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+}
+.logo{
+    padding-left: 50px;
+    font-weight: bold;
+    font-size: 4rem;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    padding: 20px ;
+    
+}

@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.flag {
+    width: 3.2em;
+    height: 2em;
+    position: relative;
+    border: 1px solid black;
+}
+
+.stripes {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.stripe {
+    width: 100%;
+    height: 7.69%;
+}
+
+.red {
+    background-color: red;
+}
+
+.white {
+    background-color: white;
+}
+
+.blue-box {
+    width: 40%;
+    height: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: blue;
+    border-right: 0.2em solid yellow;
+}
+
+.crescent {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 40%;
+    height: 40%;
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+.crescent:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 25%;
+    width: 75%;
+    height: 100%;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.star {
+    position: absolute;
+    top: 55%;
+    left: 15%;
+    width: 30%;
+    height: 30%;
+    background-color: yellow;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
