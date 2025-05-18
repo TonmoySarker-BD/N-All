@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    background: url("./assets/bg_main.gif") center center/cover;
+    margin: 0 15.3vw;
+}
+
+.top-nav{
+    background-color: #683091;
+    padding: 1vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    border-bottom: 4px solid yellowgreen;
+}
+
+.top-nav-brand{
+    color: white;
+    font-weight: 700;
+}
+select{
+    padding: 4px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.go-btn{
+    color: white;
+    background-color: #337ab7;
+    padding: 5px;
+    border: none;
+}
+
+.nav-hero{
+    display: flex;
+    align-items: center;
+    padding: 62px 30px;
+    gap: 20px;
+    color: white;
+  background: url("./assets/banner.png");
+}

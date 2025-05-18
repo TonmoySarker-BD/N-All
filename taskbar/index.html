@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>windows 11 Taskbar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            padding: 10px;
+
+            display: flex;
+            justify-content: space-between;
+        }
+        .weather{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+        }
+        .weather-text p{
+            margin: 0;
+        }
+        .software{
+            display: flex;
+            justify-items: center;
+            gap: 20px;
+        }
+        #search{
+            padding: 0 20px;
+            border: none;
+            border-radius: 40px;
+        }
+
+        .toolbar{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <div id="main">
+
+        </div>
+    </main>
+    <footer>
+        <div class="weather">
+            <div class="weather-icon">
+                <img src="./Weather-icon.png" alt="" width="50" height="50">
+            </div>
+            <div class="weather-text">
+                <p>31' C</h3>
+                <p>Mostly Sunny</p>
+            </div>
+        </div>
+        <div class="software">
+            <img src="./win11.png" alt="" width="50" height="50">
+            <input type="search" name="search" id="search" placeholder="Search" >
+            <img src="./task-view.png" alt="" width="50" height="50">
+            <img src="./copilot.webp" alt="" width="50" height="50">
+            <img src="./edge.png" alt="" width="50" height="50">
+            <img src="./Explorer.png" alt="" width="50" height="50">
+        </div>
+        <div class="toolbar">
+            <p><i class="fa-solid fa-wifi"></i></p>
+            <p><i class="fa-solid fa-volume-xmark"></i></p>
+            <p><i class="fa-solid fa-battery-half"></i></i></p>
+        </div>
+
+    </footer>
+</body>
+</html>
